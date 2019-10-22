@@ -1,0 +1,66 @@
+.footer.has-cards:before
+{
+	top: 470px !important;
+}
+
+#crypto-thead
+{
+	background: #6772e4;
+    color: white;
+}
+
+.green
+{
+	color: #2dce89;
+    font-weight: 700;
+}
+
+.red
+{
+	color: #f5365c;
+    font-weight: 700;
+}
+
+.crypto-heading-h1
+{
+	    font-weight: 600;
+    margin-bottom: 50px;
+        text-transform: uppercase;
+}
+
+.page-item.disabled .page-link {
+    border: none;
+    color: #5e72e4;
+
+}
+
+.page-item:first-child .page-link {
+    border: none;
+    padding-right: 20px;
+    color: #5e72e4;
+    }
+.page-item:last-child .page-link
+{
+	 border: none;
+    color: #5e72e4;
+}
+.page-link:hover
+{
+    background-color: white;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    margin: 40px 0 !important;
+  	justify-content: end !important;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    display: none !important;
+    }
+
+@media (max-width: 767.98px) {
+	div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    margin: 40px 0 !important;
+  	justify-content: center !important;
+}
+}
